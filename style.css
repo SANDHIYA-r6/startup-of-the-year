@@ -49,5 +49,14 @@ hr {
 {
   padding:1 rem 2rem;
 }
+body {
+  margin: 0;                   /* Removes default browser gaps */
+  display: flex;               /* Activates the Flexbox layout engine */
+  justify-content: center;     /* Centers text horizontally */
+  align-items: center;        /* Centers text vertically */
+  min-height: 100vh;           /* Forces the page to take up 100% of screen height */
+  text-align: center;          /* Keeps multi-line text blocks perfectly balanced */
+}
+
 
 
